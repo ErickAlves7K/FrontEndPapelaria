@@ -11,19 +11,30 @@
     display: block;
     margin: 0 auto;
 }
-h1 {
-    color: #000000;
-    height: 100%;
-    display: table-cell;
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 48px; 
     font-style: normal;
-    font-weight: normal;
+    color: #000000;
+    height: 100%;
+    display: table-cell;
     position: absolute;
     border-left: 700px;
     width: 121px;
     height: 56px;
-    left: 700px;
-    top: 44px;
+    left: 50%;
+    top: 0.4em;
     line-height: 56px;
+    margin: 0%;
+}
+
+.middle-box {
+    position: absolute;
+    width: 592px;
+    height: 511px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #C4C4C4;
 }
