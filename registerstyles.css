@@ -59,7 +59,7 @@ input {
     text-rendering: auto;
 }
 
-.signup-btn {
+.register-btn {
     position: absolute;
     padding: 5px 64px;
     background-color: white;
@@ -67,18 +67,7 @@ input {
     margin-top: 130px;
     margin-left: -260px;
 }
-.register-button {
-    margin-top: 400px;
-    margin-left: -30px;
-}
-.register-text {
-    color: black;
-    background-color: transparent;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 26px;
-    text-decoration: none;
-}
+
 div {
     display: block;
 }
